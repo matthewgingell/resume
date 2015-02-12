@@ -1,0 +1,68 @@
+name: Matthew Gingell
+address: 2347 NE 94th Street, Seattle, WA, 98115
+email: matthewgingell@gmail.com
+phone: 347-439-6006
+
+sections:
+
+  - heading: Experience
+    subsections:
+
+      - what: Amazon.com
+        where: Seattle, WA
+        role: Software Development Engineer II
+        when: 2012 - Present
+        items:
+
+          - Technical lead for Amazon Escrow. Escrow is a risk
+            mitigation technology for customer-to-customer and
+            third-party transactions on the Amazon platform.
+
+          - Technical lead for automated opinion fraud detection on
+            Junglee.com.
+
+      - what: AdaCore Technologies
+        where: New York, NY
+        role: Senior Software Engineer
+        when: 1999-2012
+        items:
+
+          - Maintain, extend, and support AdaCore''s GNAT Pro
+            development environment. This included work on the GNU
+            Compiler Collection (GCC) backend, the GDB debugger, the
+            GNU linker and assembler, the runtime environment, and the
+            Ada compiler itself.
+
+          - Developed a C/C++ to Ada binding generator. See `gcc
+            -fdump-ada-spec`.
+
+  - heading: Education
+    subsections:
+      - what: New York University
+        when: 1997-2001
+        where: New York, NY
+        items:
+          - Bachelor''s Degree, Computer Science
+
+  - heading: Other Projects
+    items:
+
+      - Author of the *Wiji* software documentation system. Wiji is a
+        Clojure tool for generating structured project documentation
+        from annotated source code. Wiji can be used to generate Wiki
+        pages, HTML, and high-quality PDF via Latex.
+
+      - Author of *Chesley the Chess Engine*. Chesley is 12K lines of
+        C++ with an Elo rating of around 2200, roughly in the National
+        Master range as defined by the United States Chess
+        Federation. Chesley implements many state of the art computer
+        chess and artificial intelligence techniques, included rotated
+        bitboard move generation and corpus based learning. Please see
+        http://chesley.svn.sourceforge.net.
+
+
+  - heading: Skills
+    items:
+
+      - Extensive experience programming in C, C++, and Java.
+      - Extensive experience with Unix system programming.

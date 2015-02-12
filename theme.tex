@@ -1,0 +1,67 @@
+\usepackage{enumitem}
+\usepackage{etoolbox}
+
+\newcommand{\when}[2]{\ifstrequal{#1}{}{}{#2}}
+
+% Disable section numbers.
+\setcounter{secnumdepth}{0}
+
+% Disable page numbers.
+\pagenumbering{gobble}
+
+% Disable indenting paragraphs.
+\setlength{\parindent}{0cm}
+
+% Set margins.
+\usepackage[margin=1in]{geometry}
+
+% Use Erewhon font.
+\usepackage{fontspec}
+\setmainfont[Path = ./fonts/,
+Extension = .otf,
+BoldFont = Erewhon-Bold,
+ItalicFont = Erewhon-Italic,
+BoldItalicFont = Erewhon-BoldItalic,
+SmallCapsFeatures = {Letters = SmallCaps}
+]{Erewhon-Regular}
+
+% Horizontal rule after each section heading.
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+%
+% Header.
+%
+\newcommand{\heading}[4] {
+{\huge #1}
+\hrule
+\vspace{5mm}
+\begin{tabular}{p{2cm}p{4cm}}
+{\bf email} & #2 \\
+{\bf phone} & #3 \\
+{\bf address} & #4
+\end{tabular}
+}
+
+%
+% Resume subsections.
+%
+\renewenvironment{subsection}[4] {
+% {Company}{Dates}{Title}{Location}
+\begin{flushleft}
+\begin{tabular}{p{3cm}p{.7 \textwidth}}
+\textbf{#2} &
+\textbf{#1},
+\when{#3}{#3,}
+\when{#4}{#4} \\
+\smallskip \\
+&
+\begin{minipage}{.7 \textwidth}
+\begin{itemize}[leftmargin=*]
+}{
+\end{itemize}
+\end{minipage}
+\end{tabular}
+\end{flushleft}
+}
