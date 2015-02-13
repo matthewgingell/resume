@@ -58,7 +58,7 @@ sections:
         Federation. Chesley implements many state of the art computer
         chess and artificial intelligence techniques, included rotated
         bitboard move generation and corpus based learning. Please see
-        http://chesley.svn.sourceforge.net.
+        https://github.com/matthewgingell/chesley
 
 
   - heading: Skills
