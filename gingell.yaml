@@ -40,6 +40,7 @@ sections:
         when: 1997-2001
         where: New York, NY
         items:
+
           - "Bachelor's Degree, Computer Science"
 
   - heading: Other Projects
@@ -64,4 +65,6 @@ sections:
     items:
 
       - Extensive experience programming in C, C++, and Java.
-      - Extensive experience with Unix system programming.
+
+      - Extensive experience with Unix system programming, including
+        work on GCC, GDB, and the rest of the GNU toolchain.
