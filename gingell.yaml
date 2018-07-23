@@ -1,5 +1,5 @@
 name: Matthew Gingell
-address: 13543 NE 200th St. Woodinville, WA 98072
+address: 19516 222nd Ave NE. Woodinville, WA 98077
 email: matthewgingell@gmail.com
 phone: 347-439-6006
 
@@ -10,8 +10,16 @@ sections:
 
       - what: Google
         where: Kirkland, WA
+        role: Senior Software Engineer
+        when: 2017 - Present
+        items:
+
+        - Technical Lead, Asylo Enclave Framework
+
+      - what: Google
+        where: Kirkland, WA
         role: Software Engineer
-        when: 2015 - Present
+        when: 2015 - 2017
         items:
 
         - Security engineering for the Google Cloud Platform,
@@ -28,9 +36,6 @@ sections:
             mitigation technology for customer-to-customer and
             third-party transactions on the Amazon platform.
 
-          - Technical lead for automated opinion fraud detection on
-            Junglee.com.
-
       - what: AdaCore Technologies
         where: New York, NY
         role: Senior Software Engineer
@@ -42,9 +47,6 @@ sections:
             Compiler Collection (GCC) backend, the GDB debugger, the
             GNU linker and assembler, the runtime environment, and the
             Ada compiler itself."
-
-          - "Developed a C/C++ to Ada binding generator. See `gcc
-            -fdump-ada-spec`."
 
   - heading: Education
     subsections:
